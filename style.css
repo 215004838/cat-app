@@ -1,0 +1,36 @@
+body{
+
+    background-color: 59CD90;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dog{
+    background-color: aqua;
+    margin:0.5em;
+    padding:1em;
+    border-radius: 1em;
+    border: 5px solid;
+    flex: 1;
+}
+@media(min-width:960px) {
+.dogs{
+    display: flex;
+}
+}
+fieldset{
+    margin: 1em;
+    border:0 ;
+}
+button{
+    margin: 1em;
+    padding: 1em;
+    border-color: rgb(165, 42, 126);
+    border: 5px solid;
+    border-radius: 1em;
+}
+input{
+    margin: 1em;
+    padding: 1em;
+    border-color: rgb(165, 42, 126);
+    border: 5px solid ;
+    border-radius: 1em; 
+}
